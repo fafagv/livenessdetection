@@ -1,0 +1,30 @@
+# Core numerical / plotting stack
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Computer vision
+opencv-python>=4.8.0
+mediapipe>=0.10.9
+cvzone>=1.6.1
+
+# Face recognition (requires CMake + a C++ toolchain to build dlib)
+face_recognition>=1.3.0
+dlib>=19.24.0
+
+# Firebase (face_recognition attendance app)
+firebase-admin>=6.2.0
+
+# Deep learning
+torch>=2.1.0
+tensorflow>=2.14.0
+
+# Simulations / games
+pygame>=2.5.0
+
+# Mouse control
+pyautogui>=0.9.54
+
+# Windows-only dependencies
+pycaw>=20230407; sys_platform == "win32"
+comtypes>=1.2.0; sys_platform == "win32"

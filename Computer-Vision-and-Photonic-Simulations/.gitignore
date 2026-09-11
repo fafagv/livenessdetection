@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE / editor configs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# --- Secrets & credentials ---
+config/serviceAccountKey.json
+.env
+*.pem
+*.key
+
+# --- Model weights / large artifacts ---
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.onnx
+*.p
+*.pkl
+EncodeFile.p
+
+# --- Dataset / media caches ---
+data/images/*
+!data/images/.gitkeep
+data/presentation_slides/*
+!data/presentation_slides/.gitkeep
+data/resources/*
+!data/resources/.gitkeep
+*.mp4
+*.avi
+
+# --- Logs & test artifacts ---
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
